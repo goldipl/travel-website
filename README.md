@@ -1,5 +1,5 @@
 ## General info
-Travel website ➡️ written using modern technologies like Next.js 13, TypeScript & TailwindCSS
+Travel website ➡️ written using modern technologies like Next.js 13, TypeScript & TailwindCSS. In this project Boxicons icons were used also.
 
 ## Technologies   
 Used technologies:
