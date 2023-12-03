@@ -2,6 +2,7 @@ import { NAV_LINKS } from '@/constants'
 import Link from 'next/link'
 import React from 'react'
 import Button from './Button'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -17,12 +18,23 @@ const Navbar = () => {
                 </Link>
             ))}
         </ul>
+
         <div className='lg:flexCenter hidden'>
             <Button 
                 type='button'
                 title='Login'
                 icon='./bx-log-in-circle.svg'
                 variant='btn_dark_green'
+            />
+        </div>
+
+        <div className='hamburger'>
+            <Image
+                src='./bx-menu-alt-right.svg'
+                alt='menu'
+                width='32'
+                height='32'
+                className='inline-flex cursor-pointer lg:hidden'
             />
         </div>
     </nav>
