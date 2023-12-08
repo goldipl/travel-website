@@ -11,13 +11,13 @@ const Navbar = () => {
     return (
         <nav className='absolute top-0 left-0 z-30 w-full'>
             <div className='w-full flexBetween max-container padding-container z-30 py-5'>
-                <Link href="/" className='flex items-center font-bold'>
-                    <i className='bx bx-briefcase bx-md'></i>
-                    <p className='ml-1 text-lg'>Around<span className='text-yellow-600'>the</span>World</p>
+                <Link href="/" className='flex items-center font-bold text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_80%)]'>
+                    <i className='bx bx-briefcase bx-md text-lime-500'></i>
+                    <p className='ml-1 text-2xl'>Around<span className='text-lime-500'>the</span>World</p>
                 </Link>
                 <ul className='hidden h-full gap-12 lg:flex'>
                     {NAV_LINKS.map((link) => (
-                        <Link href={link.href} key={link.key} className='regular-16 text-gray-50 flexCenter cursor-pointer transition-all hover:font-bold'>
+                        <Link href={link.href} key={link.key} className='regular-16 text-white flexCenter [text-shadow:_0_1px_0_rgb(0_0_0_/_80%)] cursor-pointer transition-all hover:font-bold'>
                             {link.label}
                         </Link>
                     ))}
@@ -28,7 +28,7 @@ const Navbar = () => {
                         type='button'
                         title='Login'
                         icon='./bx-log-in-circle.svg'
-                        variant='btn_dark_green'
+                        variant='btn_light_lime'
                     />
                 </div>
 
