@@ -38,7 +38,7 @@ const Navbar = () => {
                         alt='menu'
                         width='32'
                         height='32'
-                        className='inline-flex cursor-pointer lg:hidden'
+                        className='inline-flex cursor-pointer invert lg:hidden'
                     />
                     <ul className={'absolute top-20 left-0 flex flex-col h-full gap-10 w-full bg-white lg:hidden' + (!open ? ' hidden' : ' flex')}>
                         {NAV_LINKS.map((link) => (
