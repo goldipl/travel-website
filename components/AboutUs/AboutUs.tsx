@@ -4,7 +4,7 @@ import MaledviesImg02 from '@/public/images/maledives02.jpg'
 
 const AboutUs = () => {
   return (
-    <div className='relative flex max-container padding-container items-center py-10'>
+    <div id='about_us' className='relative flex max-container padding-container items-center py-10'>
       <div className='flex h-[400px]'>
         <div className='flex absolute top-[-80px] left-1/4 xl:left-0'>
           <img className='rounded-3xl border-2 border-white' src={MaledviesImg01.src} alt="img" width={400} height={1200}/>
