@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='max-container padding-container py-10'>
+      Footer
+    </div>
   )
 }
 

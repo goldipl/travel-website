@@ -2,7 +2,9 @@ import React from 'react'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div className='max-container padding-container py-10'>
+      Gallery
+    </div>
   )
 }
 

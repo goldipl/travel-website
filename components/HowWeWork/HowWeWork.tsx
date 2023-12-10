@@ -2,7 +2,9 @@ import React from 'react'
 
 const HowWeWork = () => {
   return (
-    <div>HowWeWork</div>
+    <div className='max-container padding-container py-10'>
+      HowWeWork
+    </div>
   )
 }
 

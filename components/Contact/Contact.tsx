@@ -2,7 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='max-container padding-container py-10'>
+      Contact
+    </div>
   )
 }
 
