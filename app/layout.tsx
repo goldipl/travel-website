@@ -21,7 +21,7 @@ export default function RootLayout({
       <body>
         <div className='flexCenter flex-col'>
           <Navbar />
-          <main className="relative overflow-hidden">
+          <main className="relative overflow-x-hidden">
             {children}
           </main>
           <Footer />
