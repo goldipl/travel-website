@@ -15,6 +15,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 * https://goldipl.github.io/travel-website/
 
+## Screenshots
+
+![screenshot](./screenshots/screenshot01.jpg)
+
 ## Getting Started
 
 First, run the development server:
