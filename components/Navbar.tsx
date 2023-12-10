@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div className='lg:flexCenter hidden'>
                     <Button 
                         type='button'
-                        title='Login'
+                        title='Special Offerts'
                         icon='./bx-log-in-circle.svg'
                         variant='btn_light_lime'
                     />
