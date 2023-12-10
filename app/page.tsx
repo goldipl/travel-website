@@ -1,9 +1,9 @@
-import Video from "@/components/Video";
+import { Hero } from "@/components/Hero/Hero";
 
 export default function Home() {
   return (
     <>
-      <Video />
+      <Hero />
     </>
   )
 }
