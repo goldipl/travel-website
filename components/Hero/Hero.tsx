@@ -4,7 +4,7 @@ import { HeroText } from './HeroText'
 
 export const Hero = () => {
   return (
-    <div className='relative'>
+    <div className='relative h-full'>
         <Video />
         <HeroText />
     </div>
