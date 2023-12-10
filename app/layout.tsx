@@ -19,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body>
-        <Navbar />
-        <main className="relative overflow-hidden">
-        {children}
-        </main>
-        <Footer />
+        <div className='flexCenter flex-col'>
+          <Navbar />
+          <main className="relative overflow-hidden">
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   )
