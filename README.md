@@ -17,7 +17,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Screenshots
 
-![screenshot](./screenshots/screenshot01.jpg)
+![screenshot](./screenshots/screenshot01.jpg)  
+
+![screenshot](./screenshots/screenshot02.jpg)  
 
 ## Getting Started
 
