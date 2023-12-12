@@ -4,7 +4,7 @@ import Swiper from './Swiper'
 
 const Gallery = () => {
   return (
-    <div className='max-container padding-container py-10 overflow-hidden'>
+    <div className='max-container padding-container overflow-x-hidden'>
       <Swiper />
     </div>
   )
