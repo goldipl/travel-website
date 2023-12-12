@@ -26,30 +26,47 @@ export default () => {
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
+      breakpoints={{
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        // when window width is >= 800px
+        800: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        // when window width is >= 1200px
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+      }}
     >
         <SwiperSlide>
-            <img src={img01.src} alt="img" className='select-none'/>
+            <img src={img01.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img02.src} alt="img" className='select-none'/>
+            <img src={img02.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img03.src} alt="img" className='select-none'/>
+            <img src={img03.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img04.src} alt="img" className='select-none'/>
+            <img src={img04.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img05.src} alt="img" className='select-none'/>
+            <img src={img05.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img06.src} alt="img" className='select-none'/>
+            <img src={img06.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img07.src} alt="img" className='select-none'/>
+            <img src={img07.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img08.src} alt="img" className='select-none'/>
+            <img src={img08.src} alt="img" className='select-none rounded-xl'/>
         </SwiperSlide>
     </Swiper>
   );
