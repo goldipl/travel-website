@@ -7,6 +7,10 @@ import Image from 'next/image'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setOpen(!open)
+    }
     
     return (
         <nav className='absolute top-0 left-0 z-30 w-full'>
@@ -32,7 +36,7 @@ const Navbar = () => {
                     />
                 </div>
 
-                <div className='lg:hidden' onClick={() => setOpen(!open)}>
+                <div className='lg:hidden' onClick={toggleMenu}>
                     <Image
                         src='./bx-menu-alt-right.svg'
                         alt='menu'
