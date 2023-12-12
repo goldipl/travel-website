@@ -19,7 +19,7 @@ import img08 from '@/public/images/swiper/swiper-image08.jpg'
 export default () => {
   return (
     <Swiper
-        className='w-screen'
+        className='w-[90vw]'
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={3}
@@ -46,28 +46,28 @@ export default () => {
         }}
     >
         <SwiperSlide>
-            <img src={img01.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img01.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img02.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img02.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img03.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img03.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img04.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img04.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img05.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img05.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img06.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img06.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img07.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img07.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src={img08.src} alt="img" className='select-none rounded-xl'/>
+            <img src={img08.src} alt="img" className='select-none rounded-3xl'/>
         </SwiperSlide>
     </Swiper>
   );
