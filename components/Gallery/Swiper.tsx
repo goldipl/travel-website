@@ -19,7 +19,6 @@ import img08 from '@/public/images/swiper/swiper-image08.jpg'
 export default () => {
   return (
     <Swiper
-        className='w-[86vw]'
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={3}
