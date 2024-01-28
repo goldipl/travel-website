@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <nav className='absolute top-0 left-0 z-30 w-full'>
             <div className='w-full flexBetween max-container padding-container z-30 py-2 lg:py-5'>
-                <Link href="/" className='[text-shadow:_0_1px_0_rgb(0_0_0_/_80%)]'>
+                <Link href="/">
                     <img className='lg:w-[120px] h-auto w-[60px]' src={logo.src} alt="logo" width="150" height="143"/>
                 </Link>
                 <ul className='hidden h-full gap-12 lg:flex'>
