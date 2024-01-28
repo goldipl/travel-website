@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Button from './Button'
 import Image from 'next/image'
+import logo from './../public/images/logo/logo.png'
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -14,10 +15,9 @@ const Navbar = () => {
     
     return (
         <nav className='absolute top-0 left-0 z-30 w-full'>
-            <div className='w-full flexBetween max-container padding-container z-30 py-5'>
-                <Link href="/" className='flex items-center font-bold text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_80%)]'>
-                    <i className='bx bx-briefcase bx-md text-lime-500'></i>
-                    <p className='ml-1 text-2xl'>Around<span className='text-lime-500'>the</span>World</p>
+            <div className='w-full flexBetween max-container padding-container z-30 py-2 lg:py-5'>
+                <Link href="/" className='[text-shadow:_0_1px_0_rgb(0_0_0_/_80%)]'>
+                    <img className='lg:w-[120px] h-auto w-[60px]' src={logo.src} alt="logo" width="150" height="143"/>
                 </Link>
                 <ul className='hidden h-full gap-12 lg:flex'>
                     {NAV_LINKS.map((link) => (
