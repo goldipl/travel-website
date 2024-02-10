@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white padding-container py-10 w-[100vw] flex justify-center lg:justify-between">
+    <div className="bg-black text-white padding-container py-4 lg:py-10 w-[100vw] flex justify-center lg:justify-between">
       <div className="max-container flex items-center lg:items-start w-full lg:flex-row flex-col justify-center lg:justify-between">
-        <div className="flex-col">
+        <div className="flex-col mb-4">
           <a href="/"className="flex justify-center">
             <img
               className="lg:w-[120px] h-auto w-[60px] m-6"
