@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex-col mb-4">
           <a href="/"className="flex justify-center">
             <img
-              className="lg:w-[120px] h-auto w-[60px] m-6"
+              className="lg:w-[120px] h-auto w-[60px] mb-4 lg:m-6"
               src={logo.src}
               alt="logo"
               width="150"
