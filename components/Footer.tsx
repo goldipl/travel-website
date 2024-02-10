@@ -1,4 +1,5 @@
 import React from "react";
+import logo from './../public/images/logo/logo.png'
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           <a href="/"className="flex justify-center">
             <img
               className="lg:w-[120px] h-auto w-[60px] m-6"
-              src="./_next/static/media/logo.5c571377.png"
+              src={logo.src}
               alt="logo"
               width="150"
               height="143"
