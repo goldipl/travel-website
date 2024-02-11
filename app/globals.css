@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
 
 @tailwind base;
 @tailwind components;
@@ -17,10 +17,10 @@ body {
 }
 
 @layer utilities {
-  .btn_light_lime { 
+  .btn_light_lime {
     @apply bg-[#00df9a] hover:text-[#00df9a] hover:bg-gray-50;
   }
-  
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
