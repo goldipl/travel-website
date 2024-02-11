@@ -11,6 +11,7 @@ export const HeroText = () => {
               type='button'
               title='Read more about Us'
               variant='btn_light_lime'
+              width=''
           />
         </Link>
     </div>
