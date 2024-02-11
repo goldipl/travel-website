@@ -1,3 +1,7 @@
+.swiper {
+    padding-bottom: 40px !important;
+}
+
 .swiper-button-prev:after, 
 .swiper-button-next:after {
     color: black;
