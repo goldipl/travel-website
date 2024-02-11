@@ -18,7 +18,7 @@ body {
 
 @layer utilities {
   .btn_light_lime { 
-    @apply bg-lime-500 px-8 py-2 text-white transition-all hover:bg-lime-600;
+    @apply bg-[#00df9a] hover:text-[#00df9a] hover:bg-gray-50;
   }
   
   .max-container {
