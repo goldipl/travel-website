@@ -30,7 +30,7 @@ const Navbar = () => {
                 <div className='lg:flexCenter hidden'>
                     <Button 
                         type='button'
-                        title='Discounts'
+                        title='Pricing'
                         icon='./bx-log-in-circle.svg'
                         variant='btn_light_lime'
                     />
